@@ -73,6 +73,8 @@ namespace GiveOrdersService.Extensions
             //    return Task.CompletedTask;
             //};
             #endregion
+
+            orders.orderId = Guid.NewGuid();
             string routingKey = "order.create";
             var message = JsonSerializer.Serialize(orders);
             var body = Encoding.UTF8.GetBytes(message);

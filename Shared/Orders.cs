@@ -3,7 +3,7 @@
     public record class Orders
     {
         public int clientId { get; set; }
-        public Guid orderId = Guid.NewGuid();
+        public Guid orderId { get; set; } 
         public string paymentProvider { get; set; } 
         public List<Products> items { get; set; }
     }
