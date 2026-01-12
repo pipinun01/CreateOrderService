@@ -1,4 +1,4 @@
-##Учебный проект
+##Учебный проект заказа
 - CreateOrderService: Создаёт заказ
   https://github.com/pipinun01/CreateOrderService
 
@@ -9,6 +9,6 @@
   https://github.com/pipinun01/InventoryService
 
 ##Архитектура
-Event Driven Orchestration- Based Saga
+Event Driven Orchestration- Based Saga с очередью сообщений RabbitMQ
 
 
