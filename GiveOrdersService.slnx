@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GiveOrdersService/GiveOrdersService.csproj" />
+  <Project Path="Shared/Shared.csproj" />
+</Solution>
