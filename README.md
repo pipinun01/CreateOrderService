@@ -7,6 +7,8 @@
 
 - InventoryService: Проверяет на скалде и резервирует
   https://github.com/pipinun01/InventoryService
+  
+- PaymentService: В процессе
 
 ##Архитектура
 Event Driven Orchestration- Based Saga с очередью сообщений RabbitMQ
